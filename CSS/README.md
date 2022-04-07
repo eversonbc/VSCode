@@ -4,7 +4,7 @@
 
 ### Páginas estilizadas
 
-- [Página 1](html/page_01.html)
+- [Página 1](./html_estilizado/page_01.html)
 
 ### Estilos CSS 
 
