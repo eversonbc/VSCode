@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário BEM</title>
+    <style>
+
+        .container{
+            background-color:darkblue;
+            padding: 10px;
+        }
+
+        .title{
+            background-color:azure;
+            border-radius: 5px;
+            text-align: center;
+        }
+
+        .title__text{
+            font: 16px Arial, Helvetica, sans-serif;
+            
+        }
+
+        .title__text--color{
+            color:blue;
+        }
+
+        .content{
+            background-color:darkcyan;
+            text-align:center;
+            border-radius:5px;
+            padding:10px;
+        }
+
+        .content__form{
+            background-color:gray;
+            border-radius:5px;
+            padding:10px;
+        }
+
+        .content__input{
+            background-color:lightcyan;
+        }
+
+        .content__label{
+            font: 25px;
+            padding:5px;
+            color:black;
+        }
+
+        .content__submit{
+            background-color:aquamarine;
+            border-radius:5px;
+        }
+
+        .content__submit--hover:hover{
+            background-color:aqua;
+        }
+
+        .content__submit--active:active{
+            background-color:dodgerblue;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+
+        <div class="title">
+            <h1 class="title__text title__text--color">Formulário BEM</h1>
+        </div>
+
+        <div class="content">
+
+            <form action="" class="content__form">
+                <label for="nome" class="content__label">Nome</label>
+                <input type="text" class="content__input">
+
+                <label for="email" class="content__label">Email</label>
+                <input type="email" class="content__input">
+
+                <label for="senha" class="content__label">Senha</label>
+                <input type="password" class="content__input">
+
+                <label for="confirmar-senha" class="content__label">Confirmar Senha</label>
+                <input type="password" class="content__input">
+
+                <input type="submit" value="Confirmar" class="content__submit content__submit--hover content__submit--active">
+            </form>
+        </div>
+    </div>
+</body>
+</html>
