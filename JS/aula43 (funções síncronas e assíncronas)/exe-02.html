@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <title>Document</title>
+</head>
+<body>
+    <p>Calculadora</p>
+
+    <input type="submit" onclick="exibir()">
+
+    <p id="resultado"></p>
+
+    <script>
+
+        function calcular(){
+            let n1= 20;
+            let n2= 30;
+
+            return soma = n1+n2;
+
+            exibir(soma)
+        }
+
+        function exibir(soma){
+
+            let soma = calcular()
+            
+            document.getElementById("resultado").innerHTML = "Soma: " + soma
+        }
+    </script>
+</body>
+</html>
